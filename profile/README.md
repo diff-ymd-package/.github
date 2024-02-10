@@ -1,12 +1,13 @@
 # diff-ymd-package
 
-> `diff-ymd-package` a `javascript library` provides APIs to difference dates in formatted ways(like (aYears bMonths cDays) or (aY bM cD) etc., eg. age = 20Y 2M 23D or datesDifference = 2Years 11Months 20Days) or customized desired formats like aY-bM-cD or aYears-bMonths-cDays or kDays or mWeeks or nMonths etc.
+> `diff-ymd-package` a `javascript library` provides APIs to difference dates in formatted ways(like (`aYears bMonths cDays`) or (`aY bM cD`) etc., eg. age = `20Y 2M 23D` or datesDifference = `2Years 11Months 20Days`) or customized desired formats like `aY-bM-cD` or `aYears-bMonths-cDays` or `kDays` or `mWeeks` or `nMonths` etc.
 
 [![NPM Version][npm-image]][npm-url]
 [![npm-build-published][npm-ci-image]][npm-ci-url]
 [![github-build-published][github-image]][github-url]
 [![CI][ci-image]][ci-url]
 [![License][license-image]][licence-url]
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-farhan7reza7-blue)](https://www.linkedin.com/in/farhan7reza7/)
 
 ## Installation
 
@@ -26,15 +27,15 @@ npm install @farhan7reza7/diff-ymd-package
 
 ## Usages
 
-**Initialize**
+### `Initialize:`
 
 ```javascript
-//const DatesYMD = require('@farhan7reza7/diff-ymd-package'); or
+//const DatesYMD = require('@farhan7reza7/diff-ymd-package'); //or
 
 const DatesYMD = require('diff-ymd-package'); // can use any
 ```
 
-**Create an instance**
+### `Create an instance:`
 
 ```javascript
 const date1 = '2022-01-01';
@@ -54,8 +55,8 @@ const date2 = '2023-12-31';
 const Formatter = DatesYMD.diffDates(date1, date2); // can use any
 ```
 
-**Use methods to format difference**
-
+### `Use methods to format difference:`
+ 
 ```javascript
 // format output in aY bM cD format
 const result = Formatter.formattedYMD(); // Output: "1Y 11M 30D"
@@ -88,7 +89,7 @@ const minutesDifference = Formatter.diffInMinutes(); // Output: 1049760
 const secondsDifference = Formatter.diffInSeconds(); // Output: 62985600
 ```
 
-**Formatted Outputs**
+### `Formatted Outputs:`
 
 ```javascript
 console.log(result); // Output: "1Y 11M 30D"
@@ -308,7 +309,7 @@ See [CHANGELOG.md](CHANGELOG.md).
 [npm-ci-url]: https://github.com/farhan7reza7/diff-ymd-package/actions/workflows/npm-publish-npm-registry.yml
 [github-image]: https://github.com/farhan7reza7/diff-ymd-package/actions/workflows/npm-publish-github-packages.yml/badge.svg
 [github-url]: https://github.com/farhan7reza7/diff-ymd-package/actions/workflows/npm-publish-github-packages.yml
-[ci-image]: https://github.com/farhan7reza7/diff-ymd-package/actions/workflows/pages/pages-build-deployment/badge.svg
+[ci-image]: https://github.com/farhan7reza7/diff-ymd-package/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main
 [ci-url]: https://github.com/farhan7reza7/diff-ymd-package/actions/workflows/pages/pages-build-deployment
 [license-image]: https://img.shields.io/github/license/farhan7reza7/diff-ymd-package
 [licence-url]: https://opensource.org/licenses/MIT
