@@ -15,10 +15,23 @@
 ## Table of Contents
 
 - [Installation](#installation)
-  - [Install from npm registry](#install-from-npm-registrypreference)
-  - [Install from Github Packages registry](#install-from-github-packages-registryrequire-authentication)
-  - [Include in html page from CDN](#include-in-html-page-from-cdn)
-- [Usages](#usages)
+  - [For Node environment](#for-node-environment)
+    - [Install from npm registry](#install-from-npm-registrypreference)
+    - [Install from Github Packages registry](#install-from-github-packages-registryrequire-authentication)
+  - [For Browser environment(CDN based)](#for-browser-environmentcdn-based)
+    - [Include in html page from CDN](#include-in-html-page-from-cdn)
+- [Set up](#initialize)
+  - [For Node environment](#for-node-environment-1)
+  - [For Browser environment(CDN based)](#for-browser-environmentcdn-based-1)
+  - [For diff as Global Date Object method](#for-diff-as-global-date-object-method-in-nodebrowsercdn-based)  
+- [Create an instance](#create-an-instance)
+  - [For Node environment](#for-node-environment-2)
+  - [For Browser environment(CDN based)](#for-browser-environmentcdn-based-2)
+  - [For diff as Global Date Object method](#for-diff-as-global-date-object-method-in-nodebrowsercdn-based-1)
+- [Usages](#usages-for-nodebrowsercdn-baseddate-object)
+  - [For Node environment](#usages-for-nodebrowsercdn-baseddate-object)
+  - [For Browser environment(CDN based)](#usages-for-nodebrowsercdn-baseddate-object)
+  - [For diff as Global Date Object method](#usages-for-nodebrowsercdn-baseddate-object)
 - [API References](#api-references)
 - [API Documentation](#api-documentation)  
 - [Contributing](#contributing)
@@ -28,14 +41,16 @@
 
 ## Installation
 
-### Install from `npm registry`(Preference)
+### `For Node environment:`
+
+#### Install from `npm registry`(Preference)
 
 ```bash
 npm install diff-ymd-package
 
 ```
 
-### Install from `Github Packages registry`(require authentication)
+#### Install from `Github Packages registry`(require authentication)
 
 ```bash
 npm install @farhan7reza7/diff-ymd-package
@@ -45,22 +60,24 @@ npm install @farhan7reza7/diff-ymd-package
 ##### Steps to install from `Github Packages registry`:
 [See steps here](https://github.com/farhan7reza7/diff-ymd-package/wiki/Github-Packages-registry-Steps)
 
-### Include in html page from `CDN`
+### `For Browser environment(CDN based):`
 
-**`OR` for version `2.2.1` and `above`**
+#### Include in html page from `CDN`
 
-**Can include in page `using script tag` from CDN**
+##### for version `2.2.1` and `above`
+
+##### Can include in page `using script tag` from CDN
 
 ```html
-    <script src="https://cdn.jsdelivr.net/npm/diff-ymd-package@3.0.0/lib/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/diff-ymd-package@3.1.1/lib/index.min.js"></script>
 
 ```
 
 [Get any supported version script tag](https://github.com/farhan7reza7/diff-ymd-package/wiki/Supported-versions-script-tags)
 
-## Usages
+## Initialize
 
-### `Initialize:`
+### `For Node environment:`
 
 ```javascript
 //const DatesYMD = require('@farhan7reza7/diff-ymd-package'); //or
@@ -69,16 +86,20 @@ const DatesYMD = require('diff-ymd-package'); // can use any if authenticated
 
 ```
 
-**`OR` for version `2.2.1` and `above`**
+### `For Browser environment(CDN based):`
+
+**for version `2.2.1` and `above`**
 
 **Can include in html page `using script tag` from `CDN`**
 
 ```html
-    <script src="https://cdn.jsdelivr.net/npm/diff-ymd-package@3.0.0/lib/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/diff-ymd-package@3.1.1/lib/index.min.js"></script>
 
 ```
 
-**`OR` for version `3.1.0` and `above`**
+### `For diff as Global Date Object method in NODE/Browser(CDN based):`
+
+**for version `3.1.0` and `above`**
 
 **Can use simplified function `diff` as Global Date Object method**
 
@@ -89,7 +110,9 @@ require('diff-ymd-package'); // can use any if authenticated
 
 ```
 
-### `Create an instance:`
+## Create an instance
+
+### `For Node environment:`
 
 ```javascript
 const date1 = '2022-01-01';
@@ -109,7 +132,34 @@ const date2 = '2023-12-31';
 const Formatter = DatesYMD.diffDates(date1, date2); 
 ```
 
-**`OR` for version `3.1.0` and `above`**
+### `For Browser environment(CDN based):`
+
+```javascript
+const date1 = '2022-01-01';
+const date2 = '2023-12-31';
+
+const Formatter = new DatesYMD(date1, date2);
+```
+
+**`OR` for version 2.x.x and above**
+
+**Can use simplified function `diffDates` on module-object(DatesYMD here)**
+
+```javascript
+const date1 = '2022-01-01';
+const date2 = '2023-12-31';
+
+const Formatter = DatesYMD.diffDates(date1, date2); 
+
+```
+
+**Note:** For CDN based, only **DatesYMD** constructor name creates an instance, and can use diffDates as well, but only using global **DatesYMD** like **DatesYMD.diffDates(...)**
+
+[See an example of using CDN based](https://github.com/farhan7reza7/diff-ymd-package/wiki/CDN-based-example)
+
+### `For diff as Global Date Object method in NODE/Browser(CDN based):`
+
+**for version `3.1.0` and `above`**
 
 **Can use simplified function `diff` as Global Date Object method**
 
@@ -122,13 +172,12 @@ const DateInstance = new Date(date1); // create Global Date instance
 const Formatter = DateInstance.diff(date2); //create an instance to `calculates the difference` between `Date instance` and the `date passed to it`
 
 ```
+
 **Note:** For `diff` as `Global Date method`, `only one date(the date to be subtracted from/to Global Date instance)` passed to `diff method`
 
 **`diff` method create an instance of DatesYMD to `calculates the difference` between `Date instance` and the `date passed to it`**
 
-**Note:** For CDN based, only **DatesYMD** constructor name creates an instance, and can use diffDates as well, but only using global **DatesYMD** like **DatesYMD.diffDates(...)**
-
-[See an example of using CDN based](https://github.com/farhan7reza7/diff-ymd-package/wiki/CDN-based-example)
+## Usages for NODE/Browser(CDN based)/Date Object
 
 ### `Use methods to format difference:`
  
@@ -210,14 +259,17 @@ console.log(minutesDifference); // Output: 1049760
 
 console.log(secondsDifference); // Output: 62985600
 // Calculate the difference in seconds
+
 ```
 
 ## API References
+
 **diff-ymd-package**
 - [Classes](#api-documentation)
   - [DatesYMD](#datesymd)
     - [Create an instance of DatesYMD](#create-an-instance-of-datesymd)
     - [OR for version 2.x.x and above, Can use simplified function diffDates on module-object](#can-use-simplified-function-diffdates-on-module-object)
+    - [OR for version 3.1.x and above, Can use simplified function diff as Global Date Object method](#or-for-version-31x-and-above)
     - [Methods](#methods)
         - [diffArray()](#diffarray)
         - [formattedYMD()](#formattedymd)
@@ -250,6 +302,17 @@ const Formatter = new DatesYMD(firstDate, secondDate);
 const DatesYMD = require('diff-ymd-package');
 
 const Formatter = DatesYMD.diffDates(firstDate, secondDate); // can use any
+
+```
+
+#### `OR` for version 3.1.x and above
+##### Can use simplified function `diff` as Global Date Object method
+
+```javascript
+const DateInstance = new Date(firstDate); // create Global Date instance
+
+const Formatter = DateInstance.diff(secondDate); //create an instance to `calculates the difference` between `Date instance` and the `date passed to it`
+
 ```
 
 - **`firstDate`**: The first date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or 'yyyy.mm.dd' or dateString or dateObject
@@ -258,11 +321,10 @@ const Formatter = DatesYMD.diffDates(firstDate, secondDate); // can use any
 - **`secondDate`**: The second date in the format 'yyyy-mm-dd' or 'yyyy/mm/dd' or 'yyyy.mm.dd' or dateString or dateObject
   or Timestamp(epoch).
 
-- **Special case:** empty string("" or '') is by default to current-date(today) for the parameters
+- **Special case:** empty string("" or '') is by default to current-date(today) for the parameters, `but not when passed to Global Date` as firstDate above in Global Date; `for creating current date Date instance using Date`, just call empty like `new Date()`
 
 - **`Returns:`**
   An instance of DatesYMD class.
-
 
 ### `Methods:`
 
