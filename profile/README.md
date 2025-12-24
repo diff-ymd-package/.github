@@ -28,6 +28,8 @@
 - 🤖 **[Ask Islam AI](https://www.quranbookk.com/ask-islam-ai)** – AI-powered assistant for Islamic questions, Quran, and Hadiths
 - 🤖 **[Ask Quran AI](https://www.quranbookk.com/ask-quran-ai)** – AI-powered assistant for answering about Islamic history, Quran, and Hadiths
 - 🤖 **[Ask Hadith AI](https://www.quranbookk.com/ask-hadith-ai)** – AI-powered assistant for Hadiths
+- 📅 **[Islamic Calendar Finder](https://www.quranbookk.com/islamic-calendar)** – Get accurate Hijri calendar with sunset based location aware calculations
+- 📅 **[Global Hijri Calendars](https://www.quranbookk.com/islamic-calendar/worldwide)** – Get accurate Hijri calendar with prayer times for any country, state or city of the world
 - 📚 **[Authentic Hadith Collections](https://www.quranbookk.com/hadiths/hadiths-sources)** – Sahih Bukhari, Sahih Muslim, and more  
 - 🕯️ **[Top Quranic Duas](https://www.quranbookk.com/quran/ayats)** – Beautiful supplications with translations  
 - 🔍 **[Advanced Quran Search](https://www.farhan7reza.com/search-quran)** – Search verses, words, topics in seconds  
