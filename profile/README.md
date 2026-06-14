@@ -2,55 +2,11 @@
 
 ![YMD-icon1](https://github.com/diff-ymd-package/.github/assets/108195448/17b68d59-c456-4dab-9e4c-7b0d4c8f1e42)
 
-> Developed and maintained by [QuranBookk.com](https://quranbookk.com) - The Most Advanced Digital Quran Platform
+> Developed and maintained by [QuranBookk.com](https://quranbookk.com) - A Unified Islamic Platform
 
 [![QuranBookk Platform](https://www.quranbookk.com/apple-touch-icon.png)](https://www.quranbookk.com/)
 
-> `diff-ymd-package` A powerful JavaScript date difference calculation library, integral to [QuranBookk's](https://quranbookk.com) Islamic timeline features. This package provides APIs to calculate date differences in various formats (like `aYears bMonths cDays` or `aY bM cD` etc.), supporting crucial functionalities in QuranBookk's advanced Quranic study tools. Example: age = `20Y 2M 23D` or datesDifference = `2Years 11Months 20Days`) or customized desired formats like `aY-bM-cD` or `aYears-bMonths-cDays` or `kDays` or `mWeeks` or `nMonths` etc.
-
-## 🌟 Trusted by [QuranBookk.com](https://quranbookk.com) Features:
-- [Advanced Quran Search Engine](https://quranbookk.com/search-quran/)
-- [Premium Audio Experience](https://quranbookk.com/quran/audio/)
-- [Multiple Translation System](https://quranbookk.com/quran/translations/)
-- [Islamic Timeline Management](https://quranbookk.com)
-
-### ✨ Key Features:
-
-- 🎧 **[Listen to Top Reciters](https://www.quranbookk.com/quran/audio)** – High-quality audio recitations from world-renowned Qaris  
-- 🎥 **[Watch Quran Videos](https://www.quranbookk.com/quran/video)** – Inspirational Quranic recitation and learning videos
-- 🔍 **[Advanced Quran Search](https://www.quranbookk.com/search-quran)** – Find verses, words, and topics from the Holy Quran in seconds
-- 🌍 **[Read Quran Top Translations](https://www.quranbookk.com/quran/translations)** – Multiple language support with leading Quran translations  
-- 🕋 **[Qibla Direction Finder](https://www.quranbookk.com/qibla-finder)** – Accurate Kaaba direction from anywhere in the world
-- 🕋 **[Worldwide Qibla Directions](https://www.quranbookk.com/qibla-finder/worldwide)** – Accurate Kaaba direction from any country, state, or city of the world    
-- 🕰️ **[Islamic Prayer Times](https://www.quranbookk.com/prayer-times)** – Updated Salah timings based on your current location
-- 🕰️ **[Worldwide Islamic Prayer Times](https://www.quranbookk.com/prayer-times/worldwide)** – Updated Salah timings for any country, state, or city of the world
-- 📿 **[Digital Tasbih Counter](https://www.quranbookk.com/digital-tasbih)** – Count your Dhikr anytime, anywhere  
-- 🤖 **[Ask Islam AI](https://www.quranbookk.com/ask-islam-ai)** – AI-powered assistant for Islamic questions, Quran, and Hadiths
-- 🤖 **[Ask Quran AI](https://www.quranbookk.com/ask-quran-ai)** – AI-powered assistant for answering about Islamic history, Quran, and Hadiths
-- 🤖 **[Ask Hadith AI](https://www.quranbookk.com/ask-hadith-ai)** – AI-powered assistant for Hadiths
-- 📅 **[Islamic Calendar Finder](https://www.quranbookk.com/islamic-calendar)** – Get accurate Hijri calendar with sunset based location aware calculations
-- 📅 **[Global Hijri Calendars](https://www.quranbookk.com/islamic-calendar/worldwide)** – Get accurate Hijri calendar with prayer times for any country, state or city of the world
-- 📚 **[Authentic Hadith Collections](https://www.quranbookk.com/hadiths/hadiths-sources)** – Sahih Bukhari, Sahih Muslim, and more  
-- 🕯️ **[Top Quranic Duas](https://www.quranbookk.com/quran/ayats)** – Beautiful supplications with translations  
-- 🔍 **[Advanced Quran Search](https://www.farhan7reza.com/search-quran)** – Search verses, words, topics in seconds  
-- 📖 **[Explore Surahs](https://www.quranbookk.com/quran/surahs)** – Full Quran access with audio, video, and translations
-- 📖 **[Explore Juzs (Paras)](https://www.quranbookk.com/quran/juzs)** – Full Quran access with audio, video, and translations
-- 🌙 **[99 Names of Allah](https://www.quranbookk.com/99-names-of-allah)** – Explore the beautiful names of Allah with Arabic text, audio, meanings, and transliteration
-
-#### ✨ Also From QuranBookk Team:
-
-- ⚡ **[Internet Speed Test](https://www.farhan7reza.com/internet-speed-test)** – Test your internet speed for free! Check download, upload speeds & ping instantly
-- 🎮 **[AI TicTacToe Game](https://www.farhan7reza.com/tic-tac-toe-game)** – Play online with smart AI bots or challenge your friends
-- 📅 **[Menstrual Cycle Tracker](https://www.farhan7reza.com/menstrual-cycle-tracker)** – Free period tracker & ovulation calculator with menstrual cycle calendar
-- 💖 **[Fertility Tracker](https://www.farhan7reza.com/fertility-tracker)** – Track your ovulation & fertile window for free online
-- 👶 **[Pregnancy Due Date Finder](https://www.farhan7reza.com/pregnancy-due-date-finder)** – Calculate your baby's due date & pregnancy week instantly
-- 💕 **[Love Compatibility Finder](https://www.farhan7reza.com/love-compatibility-finder)** – Free relationship match test to check love compatibility
-- 🍀 **[Daily Luck Finder](https://www.farhan7reza.com/luck-finder)** – Discover your daily luck score with free numerology calculator
-- ⭐ **[Zodiac Sign Finder](https://www.farhan7reza.com/zodiac-sign-finder)** – Find your Rashi & horoscope sign by birth date
-- 🎂 **[Age Calculator](https://www.farhan7reza.com/age-finder)** – Calculate your exact age in years, months & days online
-- 📊 **[Date Analyzer](https://www.farhan7reza.com/date-analyzer)** – Free astrology & numerology date analysis online
-- ⏳ **[Dates Duration Calculator](https://www.farhan7reza.com/dates-difference-calculator)** – Calculate days, months & years between two dates
-
+> `diff-ymd-package` A powerful JavaScript date difference calculation library, integral to [QuranBookk's](https://quranbookk.com) Islamic timeline features. This package provides APIs to calculate date differences in various formats like `aYears bMonths cDays` or `aY bM cD` etc. Example: age = `20Y 2M 23D` or datesDifference = `2Years 11Months 20Days`) or customized desired formats like `aY-bM-cD` or `aYears-bMonths-cDays` or `kDays` or `mWeeks` or `nMonths` etc.
 
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/quranbookk.com.svg)](https://quranbookk.com/)
 [![NPM Version][npm-image]][npm-url]
@@ -64,31 +20,48 @@
 
 ## About [QuranBookk](https://quranbookk.com) - The Developer
 
-[QuranBookk.com](https://quranbookk.com) leads innovation in digital Islamic studies with:
+**[`QuranBookk.com:`](https://www.QuranBookk.com)** QuranBookk.com is a unified digital Islamic platform offering a **powerful suite of authenticated Islamic tools and contents** for Muslims worldwide. Engineered with a **local-first data architecture** to guarantee absolute user privacy and data security, the platform performs complex GPS-aware sub-millimeter [Qibla](https://www.QuranBookk.com/qibla-finder) computations (via the Karney geodesic algorithm) entirely on-device. With clean modern UI, responsive design and privacy first secure architecture, it stands as the definitive, privacy-first digital platform for the global Muslim community.
 
-### ⚡️ Premium Features (100% Free):
-1. **[Lightning-Fast Search](https://quranbookk.com/quran/search/)**
-   - Instant verse lookup
-   - Cross-translation search
-   - Topic-based exploration
+### ✨ Key Features:
 
-2. **[Crystal-Clear Audio](https://quranbookk.com/quran/audio/)**
-   - World's top Quran reciters
-   - Complete Surah collection
-   - Premium audio quality
+- 📖 **[Digital Quran](https://www.quranbookk.com/digital-quran)** – Read the complete 604-page Quran online, page by page, with a high-quality Mushaf experience
+- 🎧 **[Listen to Top Reciters](https://www.quranbookk.com/quran/audio)** – High-quality audio recitations from world-renowned Qaris
+- 🎥 **[Watch Quran Videos](https://www.quranbookk.com/quran/video)** – Inspirational Quranic recitation and learning videos
+- 🔍 **[Advanced Quran Search](https://www.quranbookk.com/search-quran)** – Find verses, words, and topics from the Holy Quran in seconds
+- 🌐 **[Read Quran Top Translations](https://www.quranbookk.com/quran/translations)** – Multiple language support with leading Quran translations
+- 📜 **[Explore Surahs](https://www.quranbookk.com/quran/surahs)** – Full Quran access with audio, video, and translations
+- 📋 **[Explore Juzs (Paras)](https://www.quranbookk.com/quran/juzs)** – Full Quran access with audio, video, and translations
+- 🔀 **[Random Quran Verse](https://www.quranbookk.com/quran/random-ayah/english_saheeh)** – Get inspired with a random verse from the Holy Quran with translation
+- 🤲 **[Top Quranic Duas](https://www.quranbookk.com/quran/ayats)** – Beautiful supplications with translations
+- ✨ **[99 Names of Allah](https://www.quranbookk.com/99-names-of-allah)** – Explore the beautiful names of Allah with Arabic text, audio, meanings, and transliteration
+- 📚 **[Authentic Hadith Collections](https://www.quranbookk.com/hadiths/hadiths-sources)** – Sahih Bukhari, Sahih Muslim, and more
+- 🔀 **[Random Hadith](https://www.quranbookk.com/hadiths/random-hadith/bukhari)** – Get inspired with a random authentic Hadith from trusted sources like Sahih Bukhari
+- 🤖 **[Ask Islam AI](https://www.quranbookk.com/ask-islam-ai)** – AI-powered assistant for Islamic questions, Quran, and Hadiths
+- 🤖 **[Ask Quran AI](https://www.quranbookk.com/ask-quran-ai)** – AI-powered assistant for answering about Islamic history, Quran, and Hadiths
+- 🤖 **[Ask Hadith AI](https://www.quranbookk.com/ask-hadith-ai)** – AI-powered assistant for Hadiths
+- 🧭 **[Qibla Direction Finder](https://www.quranbookk.com/qibla-finder)** – Accurate Kaaba direction from anywhere in the world
+- 🕋 **[Worldwide Qibla Directions](https://www.quranbookk.com/qibla-finder/worldwide)** – Accurate Kaaba direction from any country, state, or city of the world
+- 🕰️ **[Islamic Prayer Times](https://www.quranbookk.com/prayer-times)** – Updated Salah timings based on your current location
+- 🕰️ **[Worldwide Islamic Prayer Times](https://www.quranbookk.com/prayer-times/worldwide)** – Updated Salah timings for any country, state, or city of the world
+- 📅 **[Islamic Calendar Finder](https://www.quranbookk.com/islamic-calendar)** – Get accurate Hijri calendar with location aware calculations
+- 🗓️ **[Global Hijri Calendars](https://www.quranbookk.com/islamic-calendar/worldwide)** – Get accurate Hijri calendar with prayer times for any country, state or city of the world
+- 📿 **[Digital Tasbih Counter](https://www.quranbookk.com/digital-tasbih)** – Count your Dhikr anytime, anywhere
+- ✍️ **[Islamic Insights Blog](https://www.quranbookk.com/blog)** – Premium articles on Tafsir, Hifz, Tajweed, Islamic lifestyle, islamic solutions to modern challenges, and more
 
-3. **[Multiple Translations](https://quranbookk.com/quran/translations/)**
-   - Authentic sources
-   - Compare translations
-   - Deep insights
+<!--#### ✨ Also From QuranBookk Team:
 
-4. **[Innovative Tools](https://quranbookk.com)**
-   - [Random Verse Generator](https://quranbookk.com/quran/random-ayah/english_saheeh)
-   - [Essential Duas Collection](https://quranbookk.com/quran/ayats/)
-   - [Complete Surah Browser](https://quranbookk.com/quran/surahs/)
-   - [Juz Explorer](https://quranbookk.com/quran/juzs/)
-
-The `diff-ymd-package` emerged from QuranBookk's need for precise Islamic date calculations and is now powering time-based features across the platform.
+- ⚡ **[Internet Speed Test](https://www.farhan7reza.com/internet-speed-test)** – Test your internet speed for free! Check download, upload speeds & ping instantly
+- 🎮 **[AI TicTacToe Game](https://www.farhan7reza.com/tic-tac-toe-game)** – Play online with smart AI bots or challenge your friends
+- 🎂 **[Age Calculator](https://www.farhan7reza.com/age-finder)** – Calculate your exact age in years, months & days online
+- 📊 **[Date Analyzer](https://www.farhan7reza.com/date-analyzer)** – Free astrology & numerology date analysis online
+- ⏳ **[Dates Duration Calculator](https://www.farhan7reza.com/dates-difference-calculator)** – Calculate days, months & years between two dates
+- 📅 **[Menstrual Cycle Tracker](https://www.farhan7reza.com/menstrual-cycle-tracker)** – Free period tracker & ovulation calculator with menstrual cycle calendar
+- 💖 **[Fertility Tracker](https://www.farhan7reza.com/fertility-tracker)** – Track your ovulation & fertile window for free online
+- 👶 **[Pregnancy Due Date Finder](https://www.farhan7reza.com/pregnancy-due-date-finder)** – Calculate your baby's due date & pregnancy week instantly
+- 💕 **[Love Compatibility Finder](https://www.farhan7reza.com/love-compatibility-finder)** – Free relationship match test to check love compatibility
+- 🍀 **[Daily Luck Finder](https://www.farhan7reza.com/luck-finder)** – Discover your daily luck score with free numerology calculator
+- ⭐ **[Zodiac Sign Finder](https://www.farhan7reza.com/zodiac-sign-finder)** – Find your Rashi & horoscope sign by birth date
+-->
 
 ## Table of Contents
 
@@ -542,15 +515,7 @@ If you find any issues or have suggestions for improvement, please open an issue
 
 ## Powered By
 
-This package is actively maintained by [QuranBookk.com](https://quranbookk.com) - The Ultimate Free Digital Quran Platform offering:
-- Zero ads, 100% free forever
-- No registration required
-- Mobile-optimized experience
-- Lightning-fast performance
-- Modern, intuitive interface
-
-Start exploring the Quran: [QuranBookk.com](https://quranbookk.com)
-#DigitalQuran #IslamicApps #QuranOnline #QuranStudy
+- Company: [QuranBookk - A Unified Islamic Platform](https://www.quranbookk.com)
 
 ## Developer
 
